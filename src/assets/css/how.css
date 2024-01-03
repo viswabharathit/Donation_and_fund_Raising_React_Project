@@ -1,0 +1,155 @@
+.howh1
+{
+    font-family: cursive;
+    /* font-weight: bold; */
+    color: lightseagreen;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+
+  }
+  .pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 5vh;
+    
+  }
+  .pic-ctn > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    width: 50%; /* Adjusted width */
+    height: 100%; /* Adjusted height */
+    animation: display 9s infinite;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+  
+  @keyframes display 
+{
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+}
+
+.footerstart
+{
+  color: rgb(19, 114, 109); 
+}
+.howfooter {
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:lightgray;
+  padding: 10px;
+  box-shadow: 0px -2px 7px rgba(161, 41, 41, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.howinput{
+  /* margin: 5px; */
+  display: flex;
+  height: 2cm;
+  width: 70%; 
+  border:black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* margin-left:5%; */
+  gap:1cm;
+  background-color: white;
+  border: grey;
+  padding-top: 2%;
+  color: #000;
+}
+.howdrop{
+  margin: 5px;
+  display: flex;
+  height: 1.5cm;
+  width: 5cm;
+  padding-top: 2%;
+  align-items: center;
+  
+}
+
+.howselect {
+  width: 100%;
+  padding: 5px;
+  margin-top: 3px;
+}
+.steps
+{
+  color: black;
+  
+}
+.divstart
+{
+  margin: 3%;
+}
+.getstarted
+{
+  width: 5cm;
+  height: 1cm;
+  background-color:#5cb85c;
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.getstarted:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); 
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.modal-container > * {
+  filter: none;
+}
+
+

@@ -1,0 +1,265 @@
+.Browseclass {
+    background-image: url("C:/Users/ViswaBharathi/OneDrive/Documents/Newprojectfolder/profol/newsample/src/assets/images/sadchild.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+    height: 100vh;
+    width: 100vw; /* Set a minimum height; adjust as needed */
+  }
+  .save,
+  .save1,
+  .save2{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+    font-size: 1cm;
+    font-family: cursive;
+    font-weight: light;
+    color: rgb(0, 0, 0);
+  }
+  
+  .save1 {
+    margin-top: 17%;
+    font-size: 0.5cm;
+  }
+  
+  .save2 {
+    margin-top: 20%;
+    margin-left: 7%;
+    font-size: 0.5cm;
+  }
+  
+
+  .button1 {
+    margin-top: 25%;
+    margin-left: 10%;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #062e48;
+    border: none;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+    font-size: 0.5cm;
+    font-family: cursive;
+    font-weight: light;
+  }
+  .firsthead
+  {
+    text-align: center;
+  }
+  .para
+  {
+    color: rgb(117, 117, 117);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  /* image1 */
+  .IMAGE1 {
+    display: flex;
+    align-items: start;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 5%;
+    background-color: rgb(255, 255, 251);
+  }
+  
+  .image-container1 {
+    border-radius: 20px;
+    max-width: 20cm; /* Set a maximum width */
+    max-height: 10cm; /* Set a maximum height */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  .image-container1 img {
+    width: 100%; /* Make the image fill the container width */
+    height: 100%; /* Maintain the aspect ratio */
+  }
+  .image-container1:hover img
+  {
+    opacity:0.6;
+  }
+  .text-container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Adjust the spacing between image and text */
+
+  }
+  
+  .head1 {
+    color: black;
+    margin-bottom: 10px; /* Adjust the spacing between heading and paragraph */
+  }
+  
+  .p1 {
+    font-family: cursive;
+    color: rgb(117, 117, 117);
+  }
+
+/* image2 */
+  .IMAGE2 {
+    display: flex;
+    align-items: start;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 5%;
+    background-color: rgb(255, 255, 251);
+  }
+  
+  .text-container2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Adjust the spacing between text and image */
+    font-family: cursive;
+  }
+  
+  .image-container2 {
+    border-radius: 20px;
+    max-width: 15cm; /* Set a maximum width */
+    max-height: 15cm; /* Set a maximum height */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  .image-container2 img {
+    width: 100%; /* Make the image fill the container width */
+    height: 100%; /* Maintain the aspect ratio */
+   
+  }
+  .image-container2:hover img
+  {
+    opacity:0.6;
+  }
+  .head2 {
+    color: black;
+    margin-bottom: 10px; /* Adjust the spacing between heading and paragraph */
+  }
+  
+  .p2 {
+    font-family: cursive;
+    color: rgb(117, 117, 117);
+  }
+  
+
+
+   /* image3 */
+   .IMAGE3 {
+    display: flex;
+    align-items: start;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 5%;
+    background-color: rgb(255, 255, 251);
+  }
+  
+  .image-container3 {
+    border-radius: 20px;
+    max-width: 30cm; 
+    max-height: 30cm; 
+    overflow: hidden; 
+   
+  }
+  
+  .image-container3 img {
+    width: 100%;  
+    height: 100%; 
+  }
+  .image-container3:hover img
+  {
+    opacity:0.6;
+  }
+  .text-container3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Adjust the spacing between image and text */
+  }
+  
+  .head3 {
+    color: black;
+    margin-bottom: 10px; /* Adjust the spacing between heading and paragraph */
+  }
+  
+  .p3 {
+    font-family: cursive;
+    color: rgb(117, 117, 117);
+  }
+  .newh1
+  {
+    padding-top:5%;
+    text-align: center;
+  }
+  .lasthead
+  {
+    margin-top: 2cm;
+    /* text-align: center; */
+  }
+  .lastpara
+  {
+    color: grey;
+    /* text-align: center; */
+  }
+  .lastButton
+  {
+    height: 1.5cm;
+    width: 5cm;
+    background-color: #073a5c;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  .lastdiv
+  {
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+  }
+  
+/* Footer.css */
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-section {
+  flex: 1;
+}
+.social-icons {
+  font-size: 24px;
+}
+ul.ulastlist
+{
+  list-style-type: none;
+}
+li a.lastlist
+{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 2%;
+  
+}
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.social-icons{
+  display: inline-block;
+}

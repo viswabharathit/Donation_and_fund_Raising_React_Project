@@ -1,0 +1,102 @@
+.regclass {
+    background-image: url("C:\Users\ViswaBharathi\OneDrive\Documents\Newprojectfolder\profol\newsample\src\assets\images\reg child.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    /* padding-bottom: 10%; */
+    padding-top: 5%;
+  }
+  
+  .form {
+    width: 30rem;
+    
+    padding: 10px;
+    background-color: rgba(53, 48, 48, 0.8);
+    opacity: 90%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+    color: #fff8f8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .input-group {
+    display: grid;
+    gap:15px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background-color: white;
+  }
+  
+  input:focus,
+  select:focus {
+    border-bottom: 2px solid #0e4a5a;
+  }
+  
+  .buttonstyle1 {
+    background-color: #062c49;
+    height: 1cm;
+    width: 5cm;
+    outline: none;
+    border-radius: 5%;
+    color: #fff;
+    border:none;
+  } 
+.buttonstyle1:hover{
+  background-color: rgb(104, 113, 113);
+}
+  .buttonstyle2 {
+    background-color: #062c49;
+    height: 1cm;
+    width: 5cm;
+    outline: none;
+    border-radius: 5%;
+    color: #fff;
+    margin-left: 25%;
+    border: none;
+  } 
+.buttonstyle2:hover{
+  background-color: rgb(104, 113, 113);
+}
+  
+  .parastyle1{
+    font-size: 1rem;
+    font-family: monospace;
+    color: white;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  .already
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }

@@ -1,0 +1,672 @@
+.bmeet
+{
+  text-align: center;
+  color: lightseagreen;
+  font-family: cursive;
+  padding-bottom: 2%;
+  /* border-bottom: 2px solid gray;*/
+  border-bottom: 2px solid transparent;
+  background: linear-gradient(to right, transparent, rgb(152, 151, 151), transparent);
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  padding-bottom: 10px; /* Adjust the padding as needed */
+}
+/* image1 */
+.parent1 {
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+  }
+  
+  .realcard1 {
+    padding-top: 50px;
+    /* border-radius: 10px; */
+    border: 3px solid rgb(255, 255, 255);
+    transform-style: preserve-3d;
+    /* background: linear-gradient(135deg,#0000 18.75%,#f3f3f3 0 31.25%,#0000 0),
+        repeating-linear-gradient(45deg,#f3f3f3 -6.25% 6.25%,#ffffff 0 18.75%); */
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+    background-color: #f0f0f0;
+    width: 350%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .realcard1 :hover1 {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+  }
+  
+  .content-box1 {
+    background-image:url("C:\Users\ViswaBharathi\OneDrive\Documents\Newprojectfolder\profol\newsample\src\assets\images\baunty.png");
+    /* border-radius: 10px 100px 10px 10px; */
+    background-size: cover; /* This will make sure the image covers the entire background */
+  background-position: center;
+  height: 200px;
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+  }
+  
+  .content-box1 .card-title1 {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box1 .card-title1:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box1 .card-content1 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box1 .card-content1:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box1 .see-more1 {
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: rgb(7, 185, 255);
+    /* border-radius: 5px; */
+    background: white;
+    padding: 0.5rem 0.7rem;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .content-box1 .see-more1:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .date-box1 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background: white;
+    border: 1px solid rgb(7, 185, 255);
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+  }
+  
+  .date-box1 span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box1 .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box1 .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }
+   
+  /* image2 */
+.parent2 {
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+  }
+  
+  .realcard2 {
+    padding-top: 50px;
+    /* border-radius: 10px; */
+    border: 3px solid rgb(255, 255, 255);
+    transform-style: preserve-3d;
+    /* background: linear-gradient(135deg,#0000 18.75%,#f3f3f3 0 31.25%,#0000 0),
+        repeating-linear-gradient(45deg,#f3f3f3 -6.25% 6.25%,#ffffff 0 18.75%); */
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+    background-color: #f0f0f0;
+    width: 350%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .realcard2:hover2 {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+  }
+  
+  .content-box2 {
+    background-image:url("C:\Users\ViswaBharathi\OneDrive\Documents\Newprojectfolder\profol\newsample\src\assets\images\grandpa.png");
+    /* border-radius: 10px 100px 10px 10px; */
+    background-size: cover; /* This will make sure the image covers the entire background */
+  background-position: center;
+  height: 200px;
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+  }
+  
+  .content-box2 .card-title2 {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box2 .card-title2:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box2 .card-content2 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box2 .card-content2:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box2 .see-more2 {
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: rgb(7, 185, 255);
+    /* border-radius: 5px; */
+    background: white;
+    padding: 0.5rem 0.7rem;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .content-box2 .see-more2:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .date-box2 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background: white;
+    border: 1px solid rgb(7, 185, 255);
+    /* border-radius: 10px; */
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+  }
+  
+  .date-box2 span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box2 .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box2 .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }
+   /* image3 */
+.parent3 {
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+  }
+  
+  .realcard3 {
+    padding-top: 50px;
+    /* border-radius: 10px; */
+    border: 3px solid rgb(255, 255, 255);
+    transform-style: preserve-3d;
+    /* background: linear-gradient(135deg,#0000 18.75%,#f3f3f3 0 31.25%,#0000 0),
+        repeating-linear-gradient(45deg,#f3f3f3 -6.25% 6.25%,#ffffff 0 18.75%); */
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+    background-color: #f0f0f0;
+    width: 350%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .realcard3:hover {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+  }
+  
+  .content-box3 {
+    background-image:url("C:\Users\ViswaBharathi\OneDrive\Documents\Newprojectfolder\profol\newsample\src\assets\images\uncle.png");
+    /* border-radius: 10px 100px 10px 10px; */
+    background-size: cover; /* This will make sure the image covers the entire background */
+  background-position: center;
+  height: 200px;
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+  }
+  
+  .content-box3 .card-title3 {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box3 .card-title3:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box3.card-content3 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box3 .card-content3:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box3 .see-more3 {
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: rgb(7, 185, 255);
+    /* border-radius: 5px; */
+    background: white;
+    padding: 0.5rem 0.7rem;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .content-box3 .see-more3:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .date-box3 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background: white;
+    border: 1px solid rgb(7, 185, 255);
+    /* border-radius: 10px; */
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+  }
+  
+  .date-box3 span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box3 .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box3 .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }
+   /* image4 */
+.parent4 {
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+  }
+  
+  .realcard4 {
+    padding-top: 50px;
+    /* border-radius: 10px; */
+    border: 3px solid rgb(255, 255, 255);
+    transform-style: preserve-3d;
+    /* background: linear-gradient(135deg,#0000 18.75%,#f3f3f3 0 31.25%,#0000 0),
+        repeating-linear-gradient(45deg,#f3f3f3 -6.25% 6.25%,#ffffff 0 18.75%); */
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+    background-color: #f0f0f0;
+    width: 350%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .realcard4:hover {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+  }
+  
+  .content-box4 {
+    background-image:url("C:\Users\ViswaBharathi\OneDrive\Documents\Newprojectfolder\profol\newsample\src\assets\images\anoterwomen.png");
+    /* border-radius: 10px 100px 10px 10px; */
+    background-size: cover; /* This will make sure the image covers the entire background */
+  background-position: center;
+  height: 200px;
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+  }
+  
+  .content-box4 .card-title4 {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box4 .card-title4:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box4 .card-content4 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box4 .card-content4:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box4 .see-more4 {
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: rgb(7, 185, 255);
+    /* border-radius: 5px; */
+    background: white;
+    padding: 0.5rem 0.7rem;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .content-box4 .see-more4:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .date-box4 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background: white;
+    border: 1px solid rgb(7, 185, 255);
+    /* border-radius: 10px; */
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+  }
+  
+  .date-box4 span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box4 .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box4 .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }
+   /* image5 */
+.parent5 {
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+  }
+  
+  .realcard5{
+    padding-top: 50px;
+    /* border-radius: 10px; */
+    border: 3px solid rgb(255, 255, 255);
+    transform-style: preserve-3d;
+    /* background: linear-gradient(135deg,#0000 18.75%,#f3f3f3 0 31.25%,#0000 0),
+        repeating-linear-gradient(45deg,#f3f3f3 -6.25% 6.25%,#ffffff 0 18.75%); */
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+    background-color: #f0f0f0;
+    width: 350%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .realcard5:hover {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+  }
+  
+  .content-box5 {
+    background-image:url("C:\Users\ViswaBharathi\OneDrive\Documents\Newprojectfolder\profol\newsample\src\assets\images\bchild.png");
+    /* border-radius: 10px 100px 10px 10px; */
+    background-size: cover; /* This will make sure the image covers the entire background */
+  background-position: center;
+  height: 200px;
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+  }
+  
+  .content-box5 .card-title5 {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box5 .card-title5:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box5 .card-content5 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box5 .card-content5:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box5 .see-more5 {
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: rgb(7, 185, 255);
+    /* border-radius: 5px; */
+    background: white;
+    padding: 0.5rem 0.7rem;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .content-box5 .see-more5:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .date-box5 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background: white;
+    border: 1px solid rgb(7, 185, 255);
+    /* border-radius: 10px; */
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+  }
+  
+  .date-box5 span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box5 .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box5 .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }
+ .patient1
+ {
+    display: flex;
+    flex-direction: row;
+}
+.broh
+{
+    margin-left:25%;
+    display: flex;
+    text-align: center;
+    color: black;
+}
+.brop
+{
+    margin-left:25%;
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+}
+.brobutton
+{
+    margin-left :50%;
+    background-color: lightseagreen;
+    color: white;
+    border:none;
+    outline: none;
+    height: 1cm;
+    font-family: cursive;
+  }
+  
+
+  /* body {
+    background-color: lightblue;
+} */
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.modal-container > * {
+  filter: opacity(1);
+}
+.btn-default
+{
+  height: 1cm;
+  width: 5cm;
+  margin-left:40%;
+  margin-top: 1%;
+  border-radius: 5%;
+  border: none;
+  outline:none;
+  background-color:#5cb85c;
+}
+.input-group-prepend
+{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: row;
+}
+.hand
+{
+  text-align: center;
+  font-family: cursive;
+  color: lightseagreen;
+}
+.tacbox {
+  display:block;
+  padding: 1em;
+  margin: 2em;
+  border: 3px solid #ddd;
+  background-color: #eee;
+  max-width: 800px;
+}
+
+input {
+  height: 2em;
+  width: 2em;
+  vertical-align: top;
+}
