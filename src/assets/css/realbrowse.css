@@ -38,7 +38,7 @@
   }
   
   .content-box1 {
-    background-image:url("C:\Users\ViswaBharathi\OneDrive\Documents\Newprojectfolder\profol\newsample\src\assets\images\baunty.png");
+    background-image:url("../images/baunty.png");
     /* border-radius: 10px 100px 10px 10px; */
     background-size: cover; /* This will make sure the image covers the entire background */
   background-position: center;
@@ -151,7 +151,7 @@
   }
   
   .content-box2 {
-    background-image:url("C:\Users\ViswaBharathi\OneDrive\Documents\Newprojectfolder\profol\newsample\src\assets\images\grandpa.png");
+    background-image:url("../images/grandpa.png");
     /* border-radius: 10px 100px 10px 10px; */
     background-size: cover; /* This will make sure the image covers the entire background */
   background-position: center;
@@ -264,7 +264,7 @@
   }
   
   .content-box3 {
-    background-image:url("C:\Users\ViswaBharathi\OneDrive\Documents\Newprojectfolder\profol\newsample\src\assets\images\uncle.png");
+    background-image:url("../images/uncle.png");
     /* border-radius: 10px 100px 10px 10px; */
     background-size: cover; /* This will make sure the image covers the entire background */
   background-position: center;
@@ -377,7 +377,7 @@
   }
   
   .content-box4 {
-    background-image:url("C:\Users\ViswaBharathi\OneDrive\Documents\Newprojectfolder\profol\newsample\src\assets\images\anoterwomen.png");
+    background-image:url("../images/anoterwomen.png");
     /* border-radius: 10px 100px 10px 10px; */
     background-size: cover; /* This will make sure the image covers the entire background */
   background-position: center;
@@ -490,7 +490,7 @@
   }
   
   .content-box5 {
-    background-image:url("C:\Users\ViswaBharathi\OneDrive\Documents\Newprojectfolder\profol\newsample\src\assets\images\bchild.png");
+    background-image:url("../images/bchild.png");
     /* border-radius: 10px 100px 10px 10px; */
     background-size: cover; /* This will make sure the image covers the entire background */
   background-position: center;
