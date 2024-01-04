@@ -68,7 +68,7 @@ const BrowseFund = () => {
           </p>
         </div>
       </div>
-
+f
 
       <div className="IMAGE2">
         <div className="text-container2">

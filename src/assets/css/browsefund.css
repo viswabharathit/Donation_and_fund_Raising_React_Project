@@ -1,5 +1,6 @@
 .Browseclass {
-    background-image: url("C:/Users/ViswaBharathi/OneDrive/Documents/Newprojectfolder/profol/newsample/src/assets/images/sadchild.jpg");
+    /* background-image: url("C:/Users/ViswaBharathi/OneDrive/Documents/Newprojectfolder/profol/newsample/src/assets/images/sadchild.jpg"); */
+    background-image: url('../images/sadchild.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
