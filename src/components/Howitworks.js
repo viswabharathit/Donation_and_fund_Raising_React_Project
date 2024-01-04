@@ -4,9 +4,7 @@ import i2 from '../assets/images/c2.png';
 import i3 from '../assets/images/c3.png';
 import i4 from '../assets/images/c4.png';
 import i5 from '../assets/images/c5.png';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowCircleRight, faQuestionCircle, faRupee } from "@fortawesome/free-solid-svg-icons";
-import { faLock } from "@fortawesome/free-solid-svg-icons";
+import {IndianRupee,HelpCircle,Lock,ArrowRight} from "lucide-react";
 
 function HowItWorks() {
 
@@ -136,7 +134,7 @@ function HowItWorks() {
               <option value="colleague">Colleague</option>
             </select>
             <div className="divstart">
-              <button className="getstarted" onClick={toggle}><FontAwesomeIcon icon={faArrowCircleRight}/>GET STARTED</button>
+              <button className="getstarted" onClick={toggle}><ArrowRight/>GET STARTED</button>
             </ div>
         </div>
         {data ? (
@@ -149,11 +147,11 @@ function HowItWorks() {
                 <div id="nameError" className="sr-only" role="alert">
                   {errors.name && <div className="alert alert-danger">{errors.name}</div>}
                 </div>
-                <label htmlFor="form-name-field" className="sr-only">Name</label>
+                {/* <label htmlFor="form-name-field" className="sr-only">Name</label> */}
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <span className="input-group-text">
-                      <FontAwesomeIcon icon={faRupee} />
+                      <IndianRupee/>
                     </span>
                   </div>
                   <input
@@ -171,11 +169,11 @@ function HowItWorks() {
                 <div id="emailError" className="sr-only" role="alert">
                   {errors.email && <div className="alert alert-danger">{errors.email}</div>}
                 </div>
-                <label htmlFor="form-email-field" className="sr-only">Email</label>
+                {/* <label htmlFor="form-email-field" className="sr-only">Email</label> */}
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <span className="input-group-text">
-                      <FontAwesomeIcon icon={faQuestionCircle} />
+                      <HelpCircle/>
                     </span>
                   </div>
                   <input
@@ -193,11 +191,11 @@ function HowItWorks() {
                 <div id="phoneError" className="sr-only" role="alert">
                   {errors.phone && <div className="alert alert-danger">{errors.phone}</div>}
                 </div>
-                <label htmlFor="form-phone-field" className="sr-only">Phone</label>
+                {/* <label htmlFor="form-phone-field" className="sr-only">Phone</label> */}
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <span className="input-group-text">
-                      <FontAwesomeIcon icon={faQuestionCircle} />
+                      <HelpCircle />
                     </span>
                   </div>
                   <input
@@ -222,7 +220,7 @@ function HowItWorks() {
                     I agree to terms and conditions.
               </div>
               <button type="submit" className="btn-default" onClick={changePage}>
-                <FontAwesomeIcon icon={faLock} /> Submit
+                <Lock /> Submit
               </button>
             </form>
           </div>

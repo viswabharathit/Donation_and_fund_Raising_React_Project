@@ -1,10 +1,7 @@
 import React from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome } from "@fortawesome/free-solid-svg-icons/faHome";
-import { faArrowRightFromBracket, faFileInvoice, faFileInvoiceDollar, faMoneyBill} from "@fortawesome/free-solid-svg-icons";
-// import { faSackDollar} from "@fortawesome/free-solid-svg-icons";
-import { faCalendarWeek } from "@fortawesome/free-solid-svg-icons";
+import { ArrowLeft,DollarSign,Landmark ,Calendar,CircleUser,IndianRupee} from "lucide-react";
+
 import dimage from "../assets/images/statistics.png";
 class SidePanel extends React.Component {
   render() {
@@ -20,20 +17,20 @@ class SidePanel extends React.Component {
       <div  id="sidebar">
         <ul className="ulstyle">
           <li>
-            <a href="#" className="astyle"><FontAwesomeIcon icon={faHome} />My Profile</a>
+            <a href="#" className="astyle"><CircleUser />My Profile</a>
           </li>
           <li>
-            <a href="#" className="astyle"><FontAwesomeIcon icon={faMoneyBill} />My funds</a>
+            <a href="#" className="astyle"><IndianRupee/>My funds</a>
           </li>
           <li>
-            <a href="#" className="astyle"><FontAwesomeIcon icon={faFileInvoiceDollar}/>Accounts</a>
+            <a href="#" className="astyle"><DollarSign/>Accounts</a>
           </li>
           <li>
-            <a href="#" className="astyle"><FontAwesomeIcon icon={faCalendarWeek}/>Events</a>
+            <a href="#" className="astyle"><Calendar/>Events</a>
           </li>
         </ul>
         <div  >
-        <button className="logout" onClick={changePage}><FontAwesomeIcon icon={faArrowRightFromBracket} rotation={180}/>Logout</button>
+        <button className="logout" onClick={changePage}><ArrowLeft/>Logout</button>
         </div>
       </div>
       <div className="mycontent">

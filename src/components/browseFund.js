@@ -21,9 +21,8 @@ import kidney from "../assets/images/KIDNEY.png"
 import child from "../assets/images/childcare.png"
 import bone from '../assets/images/bonamarrow.png'
 import cancer from '../assets/images/cancer.png'
-import { faBold } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faWhatsapp, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { Instagram  ,Twitter,Linkedin,PhoneCall, Facebook} from 'lucide-react';
+
 
 const BrowseFund = () => {
 
@@ -288,19 +287,19 @@ const BrowseFund = () => {
               {/* Add social media icons with links */}
               <div className="social-icons">
                 <a href="your-facebook-link">
-                  <FontAwesomeIcon icon={faFacebook} />
+                  <Facebook />
                 </a>
                 <a href="your-twitter-link">
-                  <FontAwesomeIcon icon={faTwitter} />
+                  <Twitter/>
                 </a>
                 <a href="https://www.whatsapp.com/">
-                  <FontAwesomeIcon icon={faWhatsapp} />
+                  <PhoneCall/>
                 </a>
                 <a href="your-twitter-link">
-                  <FontAwesomeIcon icon={faInstagram} />
+                  <Instagram/>
                 </a>
                 <a href="your-twitter-link">
-                  <FontAwesomeIcon icon={faLinkedinIn} />
+                  <Linkedin/>
                 </a>
               </div>
             </div>

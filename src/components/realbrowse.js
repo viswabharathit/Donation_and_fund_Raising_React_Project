@@ -1,9 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faLock,faPhone} from '@fortawesome/free-solid-svg-icons';
-import {faUser} from '@fortawesome/free-solid-svg-icons';
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+
+
+import {Lock,Phone,CircleUser,Mail} from "lucide-react";
 const Browsing = () => {
 
   const[data,setData] = useState(false);
@@ -113,11 +112,11 @@ const Browsing = () => {
                 <div id="nameError" className="sr-only" role="alert">
                   {errors.name && <div className="alert alert-danger">{errors.name}</div>}
                 </div>
-                <label htmlFor="form-name-field" className="sr-only">Name</label>
+                {/* <label htmlFor="form-name-field" className="sr-only">Name</label> */}
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <span className="input-group-text">
-                      <FontAwesomeIcon icon={faUser} />
+                      <CircleUser/>
                     </span>
                   </div>
                   <input
@@ -135,11 +134,11 @@ const Browsing = () => {
                 <div id="emailError" className="sr-only" role="alert">
                   {errors.email && <div className="alert alert-danger">{errors.email}</div>}
                 </div>
-                <label htmlFor="form-email-field" className="sr-only">Email</label>
+                {/* <label htmlFor="form-email-field" className="sr-only">Email</label> */}
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <span className="input-group-text">
-                      <FontAwesomeIcon icon={faEnvelope} />
+                      <Mail />
                     </span>
                   </div>
                   <input
@@ -157,11 +156,11 @@ const Browsing = () => {
                 <div id="phoneError" className="sr-only" role="alert">
                   {errors.phone && <div className="alert alert-danger">{errors.phone}</div>}
                 </div>
-                <label htmlFor="form-phone-field" className="sr-only">Phone</label>
+                {/* <label htmlFor="form-phone-field" className="sr-only">Phone</label> */}
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <span className="input-group-text">
-                      <FontAwesomeIcon icon={faPhone} />
+                      <Phone />
                     </span>
                   </div>
                   <input
@@ -179,7 +178,7 @@ const Browsing = () => {
   <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label>
 </div>
               <button type="submit" className="btn-default">
-                <FontAwesomeIcon icon={faLock} /> Proceed to pay
+                <Lock /> Proceed to pay
               </button>
             </form>
           </div>
